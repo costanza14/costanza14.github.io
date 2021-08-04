@@ -143,6 +143,18 @@ width: auto;
     background-size: cover
 }
 
+.bassapp-img{
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(../bassapp/img/bassbg.jpg);
+    opacity: 1.0;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
 .landing-img{
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
@@ -655,6 +667,16 @@ header.about {
     background-size: cover
 }
 
+header.bp {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(../img/bp.jpg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
 
 header.cart {
     padding-top: 10rem;
