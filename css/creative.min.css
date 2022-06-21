@@ -645,6 +645,18 @@ header.masthead {
     -o-background-size: cover;
     background-size: cover
 }
+
+header.home {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(../img/compass.png);
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
 header.about {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
