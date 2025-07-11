@@ -93,6 +93,18 @@ width: auto;
     background-size: cover
 }
 
+.feed-img{
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url(../feed/img/home.png);
+    opacity: 1.0;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
 .research-img{
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
