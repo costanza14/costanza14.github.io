@@ -82,9 +82,9 @@ width: auto;
   }
 
 .hilton-img{
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px);
-    background-image: url(../attributes/img/hilton.png);
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-color: #026670;
     opacity: 1.0;
     background-position: center center;
     -webkit-background-size: cover;
@@ -94,9 +94,9 @@ width: auto;
 }
 
 .feed-img{
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px);
-    background-image: url(../feed/img/home.png);
+   padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-color: #026670;
     opacity: 1.0;
     background-position: center center;
     -webkit-background-size: cover;
@@ -106,9 +106,9 @@ width: auto;
 }
 
 .research-img{
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px);
-    background-image: url(../pdp/img/testing2.png);
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-color: #026670;
     opacity: 1.0;
     background-position: center center;
     -webkit-background-size: cover;
@@ -118,9 +118,9 @@ width: auto;
 }
 
 .researchlp-img{
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px);
-    background-image: url(../landingpage/img/testing2.png);
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-color: #026670;
     opacity: 1.0;
     background-position: center center;
     -webkit-background-size: cover;
@@ -131,9 +131,9 @@ width: auto;
 }
 
 .researchfp-img{
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px);
-    background-image: url(../fixedprice/img/testing2.png);
+   padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-color: #026670;
     opacity: 1.0;
     background-position: center center;
     -webkit-background-size: cover;
@@ -144,9 +144,9 @@ width: auto;
 }
 
 .solution-img{
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px);
-    background-image: url(../pdp/img/solbg.png);
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-color: #026670;
     opacity: 1.0;
     background-position: center center;
     -webkit-background-size: cover;
@@ -156,9 +156,9 @@ width: auto;
 }
 
 .fixed-img{
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px);
-    background-image: url(../fixedprice/img/fpbg.png);
+   padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-color: #026670;
     opacity: 1.0;
     background-position: center center;
     -webkit-background-size: cover;
@@ -167,22 +167,12 @@ width: auto;
     background-size: cover
 }
 
-.bassapp-img{
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px);
-    background-image: url(../bassapp/img/bassbg.jpg);
-    opacity: 1.0;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover
 }
 
 .landing-img{
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px);
-    background-image: url(../landingpage/img/lpbg.png);
+  padding-top: 2rem;
+    padding-bottom: 3rem;
+    background-color: #026670;
     opacity: 1.0;
     background-position: center center;
     -webkit-background-size: cover;
@@ -306,8 +296,8 @@ width: auto;
 
 
 .container {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: ;
+    padding-left: ;
     margin-right: auto;
     margin-left: auto;
 }
@@ -480,10 +470,10 @@ padding-bottom: 10px;
 
 .span{
 
-    padding-top: 40px;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 30px;
+    padding-top: ;
+    padding-right: ;
+    padding-left: ;
+    padding-bottom: ;
 }
 .img-left{
 
