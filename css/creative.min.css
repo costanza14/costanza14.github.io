@@ -259,6 +259,12 @@ width: auto;
     text-transform: uppercase;
 }
 
+.text-portfolio {
+    padding-left:2rem ;
+    padding-right: 2rem;
+}
+
+
 .list-style-6 {
     list-style: none;
     margin: 0;
@@ -314,6 +320,14 @@ width: auto;
     background-color: #7B7B7B;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.bg-white {
+
+    background-color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left:2rem;
+    padding-right: ;
 }
 
 .text-center {
@@ -376,6 +390,13 @@ li .text-extra-small {
     padding-bottom: 20px;
 }
 
+/*** New image hero attempt ***/
+.about{
+
+  padding-bottom: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 /*** Problem Section Overview ***/
 
@@ -525,7 +546,7 @@ h6.ps-2 {
     background-color: #dedede!important
 }
 .bg-light-gray {
-    background-color: #EDEAE5!important;
+    background-color: #F5F5F5!important;
     padding-bottom:60px;
     padding-top: 60px;
 
@@ -660,9 +681,8 @@ img::-moz-selection {
 
 
 header.masthead {
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px);
-    background-image: url(../img/header.jpg);
+    padding-top: 7rem;
+    padding-bottom: 3rem;;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -671,8 +691,8 @@ header.masthead {
 }
 
 header.home {
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px);
+    padding-top: 7rem;
+    padding-bottom: 3rem;
     background-image: url(../img/compass.png);
     background-position: center center;
     -webkit-background-size: cover;
@@ -681,16 +701,19 @@ header.home {
     background-size: cover
 }
 
-header.about {
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 56px);
-    background-image: url(../img/profile.jpg);
+header.newabout {
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+    background-color: #026670;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover
     vertical-align:text-top;
+}
+
+
 }
  header.fixed {
     padding-top: 10rem;
@@ -872,7 +895,7 @@ header.masthead p {
     text-align: center;
     opacity: 0;
     color: #fff;
-    background: #FCE181;
+    background: #026670;
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
     transition: all .2s
@@ -938,9 +961,7 @@ border: none;
     letter-spacing: .5px;
     line-height: inherit;
     border-radius: 0;
-    text-transform: uppercase;
     width: auto;
-    text-transform: uppercase;
     border: none;
     border-radius: 300px;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
@@ -978,8 +999,38 @@ border: none;
 .btn.btn-orange{
     background: #9FEDD7;
     border-color: #9FEDD7;
-    color: #7B7B7B;
+    color: #666;
     padding-bottom: 20px;
+}
+
+.btn.btn-dark{
+    background: #9FEDD7;
+    border-color: #9FEDD7;
+    color: #666;
+    padding-bottom: 20px;
+
+}
+.btn-dark:hover{
+    background: #FCE181;
+    border-color: #FCE181;
+    color: #666;
+    padding-bottom: 20px;
+
+}
+
+.btn.btn-light{
+    background: #9FEDD7;
+    border-color: #9FEDD7;
+    color: #666;
+    padding-bottom: 20px;
+}
+
+.btn-light:hover {
+    background: #026670;
+    border-color: #026670;
+    color: #F5F5F5;
+    padding-bottom: 20px;
+
 }
 
 .btn.btn-medium {
@@ -1046,6 +1097,13 @@ a, a:active, a:focus {
 a:hover {
     color: #9FEDD7;
 }
+a.text-grey {
+   color: #666;  
+}
+
+a.text-grey:hover {
+color: #000;
+}
 
 extra-small-icon, .small-icon, .medium-icon, .large-icon, .extra-large-icon {
     list-style: none;
@@ -1079,11 +1137,11 @@ ul, menu, dir {
 
 h2.section-heading{
 
-    color: #EDEAE5;
+    color: #F5F5F5;
 }
 
 p.mb-5{
-    color: #EDEAE5;
+    color: #F5F5F5;
 
 
 }
@@ -1151,5 +1209,4 @@ p.mailto {
 /*** EndLine HR **/
 
 /*** MC ul li **/
-
 
