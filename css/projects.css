@@ -114,10 +114,6 @@ element.style {
     text-align: right;
 }
 
-.padding-30px-lr {
-    padding-left: 30px;
-    padding-right: 30px;
-}
 
 .blog-nav-link-next .blog-nav-icon {
     right: 0;

@@ -454,8 +454,10 @@ img{
 }
 
 .padding-30px-lr{
-padding-top: 30px;
+padding-top: 10px;
 padding-bottom: 10px;
+padding-left: 30px;
+padding-right: 30px;
 }
 
 .span4 img {
@@ -922,6 +924,13 @@ header.masthead p {
 .portfolio-box:focus {
     outline: 0
 }
+p.portfolio{
+padding-top: 3rem;
+padding-left: 2rem;
+padding-right: 2rem;
+margin: auto;
+
+}
 
 @media (min-width:768px) {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -1132,7 +1141,6 @@ h2.section-heading{
 
 p.mb-5{
     color: #F5F5F5;
-
 
 }
 /*** End Footer Styles **/
