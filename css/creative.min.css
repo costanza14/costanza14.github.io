@@ -320,6 +320,15 @@ width: auto;
     padding-right: ;
 }
 
+.bg-white-padding{
+    background-color: #fff;
+    padding-top: 2rem;
+    padding-bottom:;
+    padding-left:2rem;
+    padding-right:2rem ;
+
+}
+
 .text-center {
     text-align: center;
     padding-top: 30px;
