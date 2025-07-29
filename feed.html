@@ -107,7 +107,7 @@
                     <div class="col-md-6 padding-30px-lr line-height-28 last-paragraph-no-margin">
                         <ul class="list-style-6">
                             <li class="text-extra-small text-uppercase text-dark-gray font-weight-500 line-height-22">GOAL</li>
-                            <li>Create an experience that clients and agents can stay on top of the market, collaborate, and modify criteria over time in a single location.  </li>
+                            <li>Create a centralized experience that clients and agents can stay on top of the market, collaborate, and modify criteria over time in a single location. </li>
                         </ul>
                     </div>
                 </div>
@@ -123,32 +123,38 @@
   </div>
 </section>
 
-<section class="bg-white text-dark">
-  <div class="container">
+<div class="container">
     <div class="row">
       <div class="span">
-            <h3 class="ps-1">A Bit of Background </h3>
-            <p>The purpose of the listing feed is to centralize all client and agent search activity within a single, unified experience in Client Home. This integration aims to address many of the pain points in Compass’s existing product suite and reimagine how the home search process can be streamlined and improved.</p>
+            <h3 class="ps-1 text-dark"> Fragmented Experiences </h3>
+            <div class="col-md-4 line-height-28 last-paragraph-no-margin">
+              <ul class="list-style-6">
+                  <li class="text-extra-small text-uppercase text-dark-gray font-weight-500 line-height-22">1. Saved Items</li>
+                  <li>“Collections,” “Saved Searches,” and “Saved Buildings” can be created by either a client or an agent. The available collaborative features and visibility depend on who creates the space.</li>
+              </ul>
+          </div>
+          <div class="col-md-4 line-height-28 last-paragraph-no-margin">
+              <ul class="list-style-6">
+                  <li class="text-extra-small text-uppercase text-dark-gray font-weight-500 line-height-22">2. Device Misalignment</li>
+                  <li>One of the biggest friction points is the transition from a native iOS or Android experience to desktop, due to inconsistent navigation, labeling, and organization of information.</li>
+              </ul>
+          </div>
+           <div class="col-md-4 line-height-28 last-paragraph-no-margin">
+              <ul class="list-style-6">
+                  <li class="text-extra-small text-uppercase text-dark-gray font-weight-500 line-height-22">3. Client Setup</li>
+                  <li>Onboarding clients onto the platform was often cumbersome and time-consuming due to the complexity of the 'Saved Items' space and inconsistent experiences across devices.</li>
+              </ul>
+          </div>
+        </div>
+    </div>        
+</div>
 
-            <p>The listing feed is being developed in multiple phases. What’s shown here represents the most refined version, Phase 3, viewed through the lens of the team I supported and the work I contributed.</p>
-
-            <p>In this final stage, the concept of collections and saved searches as separate products is eliminated. Previously, this separation created several challenges:</p>
-
-            <p><strong>Inset Features:</strong> Features tied to the product, collections and saved searches, operated independently, causing confusion when users interacted with likes, dislikes, comments, and other collaborative tools.
-            </p>
-            <p><strong>User Experience:</strong> The experience varied depending on whether a collection or saved search was created by a client or an agent, often limiting functionality for client-created content.</p>
-            <p><strong>Mental Models:</strong> Clients’ mental models for finding a home didn’t align with the structure of Compass’s earlier products.</p>
-            <p><strong>The Setup:</strong>Onboarding clients onto the platform was often cumbersome and time-consuming.</p>
-            <p><strong>Unification:</strong>This unified approach aims to create a more seamless, intuitive, and collaborative home-search experience for both clients and agents.</p>
-      </div>
-    </div>
-  </div>
-</section> 
 <div class="container-fluid feed-img">
   <div class="row" id="box-search">
       <div class="container text-center text-white">
         <h6 class="mb-4">Process &amp; Research</h6>
-        <h3 class="text-white margin-10px-bottom xs-margin-5px-bottom font-weight-300">Competitive Analysis, User Research, User Flows &amp; Scenarios</h3>
+        <h3 class="text-white margin-10px-bottom xs-margin-5px-bottom font-weight-300">Competitive Analysis, User Research, User Flows &amp; Scenarios
+        </h3>
       </div>
  </div>
 </div>
@@ -157,65 +163,100 @@
   <div class="container">
     <div class="row">
       <div class="span">
-        <h3 class="ps-1"> Competitive Analysis </h3>
-        <p class="text-dark"> Following the initial kick-off meeting, the first design artifact produced was a competitive analysis referred to at Compass as LFR: Learn. From. Reality. This practice is culturally significant to Compass and plays an essential role in its product development process. </p>
+        <h3 class="ps-1"> Competitive Analysis</h3>
+        <p class="text-dark"> Following the initial kickoff, my first design artifact was a competitive analysis, which Compass refers to as LFR: Learn From Reality. This research offered valuable insight into how direct and indirect competitors approached similar experiences. The full list is seen here: Redfin, Zillow, Realator.com, StreetEasy, Opendoor, Homesnap, Trullia, Real scout, Home Depot, Disney &amp; Airbnb</p>
+        <ul class="list-style-6">
+          <li class="text-extra-small text-uppercase text-dark-gray font-weight-500 line-height-22">Takeaways</li>
+          <li>Competitors have similar overall structure, features, and services provided of current Compass experience.<br> Feed like experiences exist within our competitors' platforms, typically housed in separate navigation. <br>There is some nuance on content & labeling.<br>Opportunity to shake up the market with a new approach.
+          </li>
+        </ul>
+      </div>  
+    </div>    
+  </div>
+</section> 
 
-        <p> The research provided valuable insights for the buy-side team, helping them better understand how both direct and indirect competitors approach collaborative experiences, design patterns, and business models. The full list of companies analyzed includes: Redfin, Zillow, Realtor.com, StreetEasy, Opendoor, Homesnap, Trulia, RealScout, Home Depot, Disney, and Airbnb.</p>
+<section>
+  <div class="container-image-fluid">
+    <div class="image-fluid">
+     <img src="cd/img/ia_cd_mobile.png" class="image-fluid" alt="responsive image"> 
+    </div>
+  </div>
+</section> 
 
-        <div class="row padding-30px-lr">
-          <div class="image-fluid">
-           <img src="feed/img/Inspiration1.png" class="image-fluid" alt="responsive image"> 
+<section class="bg-white-padding text-dark">
+  <div class="container">
+    <div class="row">
+      <div class="span">
+        <h3 class="ps-1"> Conceptual Types of Feeds</h3>
+        <p class="text-dark"> Below are conceptual ideas of what the "feed" could be and how it might function within the Client Home: ephemeral, semi-permanent, ever-growing.
+        </p>
+        <h6 class="ps-1 text-dark"> Ephemeral </h6>
+            <div class="col-md-6 line-height-28 last-paragraph-no-margin">
+              <ul class="list-style-6">
+                  <li class="text-extra-small text-uppercase text-dark-gray font-weight-500 line-height-22">Pros</li>
+                  <li>Provides urgency for user to view & interact. <br> Fast pace, ever-changing of content. <br>Lightweight<br>Individual owns their content.</li>
+              </ul>
           </div>
-        </div>
+          <div class="col-md-6 line-height-28 last-paragraph-no-margin">
+              <ul class="list-style-6">
+                  <li class="text-extra-small text-uppercase text-dark-gray font-weight-500 line-height-22">Cons</li>
+                  <li>Not many applicable examples in the real estate market.<br> Fleeting after 24 hours; Feed forever store (hard to track down).<br> Could miss out on certain listings due to all new items in the feed. <br> Quality of content can vary depending on individual. <br>Could require more entry points from Client Home. </li>
+              </ul>
+          </div>
+           
+          <h6 class="ps-1 text-dark"> Semi-permanent </h6>
+            <div class="col-md-6 line-height-28 last-paragraph-no-margin">
+              <ul class="list-style-6">
+                  <li class="text-extra-small text-uppercase text-dark-gray font-weight-500 line-height-22">Pros</li>
+                  <li>Preserves focus areas with separate 'new' and 'saved'. <br> Always something for the user to do or see. <br>Compare and contrast new vs. old/kept easily.<br></li>
+              </ul>
+          </div>
+          <div class="col-md-6 line-height-28 last-paragraph-no-margin">
+              <ul class="list-style-6">
+                  <li class="text-extra-small text-uppercase text-dark-gray font-weight-500 line-height-22">Cons</li>
+                  <li>Not widely seen in real estate apps. Zillow and Redfin largely used recommendations or discovery. <br> Will need constant stream of 'new' content. <br>Does not encourage 'removal' or 'don't like' actions from the user.<br>Client could still miss out on a listing. <br> Listing matches live in more than one place - need for a 'Feed', 'Saved' and 'Home' space to separate.</li>
+              </ul>
+          </div> 
 
-       </div>
-     </div>  
-   </div>
-</section>        
+            <h6 class="ps-1 text-dark"> Ever-growing </h6>
+            <div class="col-md-6 line-height-28 last-paragraph-no-margin">
+              <ul class="list-style-6">
+                  <li class="text-extra-small text-uppercase text-dark-gray font-weight-500 line-height-22">Pros</li>
+                  <li>Relevant listings are all organized all in one place. <br> Most similar to how 'Collections' work today. <br> With everything in one place, surfaces and entry points can be streamlined. </li>
+              </ul>
+          </div>
+          <div class="col-md-6 line-height-28 last-paragraph-no-margin">
+              <ul class="list-style-6">
+                  <li class="text-extra-small text-uppercase text-dark-gray font-weight-500 line-height-22">Cons</li>
+                  <li>Listing Feed can become overwhelming. <br> Harder to feel a sense of accomplishment and progression. <br> Heavy UI </li>
+              </ul>
+          </div> 
+      </div>
+    </div>    
+  </div>
+</section>
+
+<section>
+  <div class="container-image-fluid">
+    <div class="image-fluid">
+     <img src="cd/img/ex.png" class="image-fluid" alt="responsive image"> 
+    </div>
+  </div>
+</section>
+
+<div class="container-fluid feed-img">
+  <div class="row" id="box-search">
+      <div class="container text-center text-white">
+        <h6 class="mb-4">Team Decision</h6>
+        <h3 class="text-white margin-10px-bottom xs-margin-5px-bottom font-weight-300">Feed Type &amp; Flows to enable it</h3>
+      </div>
+ </div>
+</div>
 
 <section class="bg-white text-dark">
   <div class="container">
     <div class="row">
       <div class="span">       
-        <h3 class="ps-1"> Conceptual Types of Feeds</h3>
-        <p class="text-dark"> The next series of images below are conceptual ideas of what the "feed" could be and how it might function within the Client Home: ephemeral, semi-permanent, ever-growing.  </p>
-
-        <div class="row padding-30px-lr">
-          <div class="image-fluid">
-           <img src="feed/img/Ephemeral.png" class="image-fluid" alt="responsive image"> 
-          </div>
-        </div>
-         <div class="row padding-30px-lr">
-          <div class="image-fluid">
-           <img src="feed/img/Semi-perm.png" class="image-fluid" alt="responsive image"> 
-          </div>
-        </div>
-         <div class="row padding-30px-lr">
-          <div class="image-fluid">
-           <img src="feed/img/Ever Growing.png" class="image-fluid" alt="responsive image"> 
-          </div>
-        </div>
-        <div class="row padding-30px-lr">
-          <div class="image-fluid">
-           <img src="feed/img/p3.png" class="image-fluid" alt="responsive image"> 
-          </div>
-        </div>
-        <div class="row padding-30px-lr">
-          <div class="image-fluid">
-           <img src="feed/img/p4.png" class="image-fluid" alt="responsive image"> 
-          </div>
-        </div>
-        <div class="row padding-30px-lr">
-          <div class="image-fluid">
-           <img src="feed/img/p2.png" class="image-fluid" alt="responsive image"> 
-          </div>
-        </div>
-        <div class="row padding-30px-lr">
-          <div class="image-fluid">
-           <img src="feed/img/p1.png" class="image-fluid" alt="responsive image"> 
-          </div>
-        </div>
-
         <h3 class="ps-1"> Semi-Permanent </h3>
         <p class="text-dark"> After extensive discussions with team members and stakeholders and taking prior user research into account, we have decided to move forward with a semi-permanent feed. This approach prioritizes new listings and previously favorited homes with updates, presented in a manageable list. Fear of missing out (FOMO) was a key concern raised in earlier research sessions and played a significant role in shaping our decision. However, users will still have the option to revisit older listings they did not take action on, if they choose to do so. 
        </div>
@@ -231,22 +272,22 @@
         <p class="text-dark"> The next four images illustrate individual user flows for enabling the feed on Client Home. I prefer to separate flows into specific scenarios, as I find this approach communicates more clearly and effectively with stakeholders than a single, comprehensive flow diagram. </p>
 
 
-        <div class="row padding-30px-lr">
+        <div class="container-image-fluid">
           <div class="image-fluid">
            <img src="feed/img/agent.png" class="image-fluid" alt="responsive image"> 
           </div>
         </div>
-         <div class="row padding-30px-lr">
+         <div class="container-image-fluid">
           <div class="image-fluid">
            <img src="feed/img/agent1.png" class="image-fluid" alt="responsive image"> 
           </div>
         </div>
-         <div class="row padding-30px-lr">
+         <div class="container-image-fluid">
           <div class="image-fluid">
            <img src="feed/img/client.png" class="image-fluid" alt="responsive image"> 
           </div>
         </div>
-         <div class="row padding-30px-lr">
+         <div class="container-image-fluid">
           <div class="image-fluid">
            <img src="feed/img/editing.png" class="image-fluid" alt="responsive image"> 
           </div>
@@ -256,75 +297,88 @@
    </div>
 </section>
 
-<section class="bg-white text-dark">
+<div class="container-fluid feed-img">
+  <div class="row" id="box-search">
+      <div class="container text-center text-white">
+        <h6 class="mb-4">Research</h6>
+        <h3 class="text-white margin-10px-bottom xs-margin-5px-bottom font-weight-300">User Testing &amp; Findings</h3>
+      </div>
+  </div>
+</div>
+
+<section class="bg-white-padding text-dark">
   <div class="container">
     <div class="row">
-      <div class="span"> 
-        <h3 class="ps-1"> User Test Concept 1  </h3>
-        <p class="text-dark"> The image below represents the concept we tested, along with a link to the prototype I created. At the time, Client Home and the Feed existed as separate products, each with its own dedicated space in the navigation. This concept reflects that structure and is documented as part of Client Home’s first round of user testing. </p>
-        <a class="btn btn-medium btn-light" href="https://www.figma.com/proto/QFef1BPAs2ii7xFRpxX9FZ/Compass-Prototypes?page-id=0%3A1&node-id=1%3A3127&viewport=-419%2C846%2C0.25&scaling=min-zoom&starting-point-node-id=1%3A3127" target="_blank" rel="nooperner noreferrer" >View Prototype
-        </a>
-         <div class="row padding-30px-lr">
-          <div class="image-fluid">
-           <img src="feed/img/test 1.png" class="image-fluid" alt="responsive image"> 
+      <div class="span">
+        <h3 class="ps-1"> First Round Research </h3>
+        <p class="text-dark"> In the first round of testing, the 'Client Home' and 'Feed' were visibly separate products; each had their own place within the navigation. The hypothesis was that these products had their separate work streams, finding it easier to manage their home search activities.<!---a class="btn btn-medium btn-light" href="https://www.figma.com/proto/QFef1BPAs2ii7xFRpxX9FZ/Compass-Prototypes?page-id=0%3A1&node-id=1%3A3127&viewport=-419%2C846%2C0.25&scaling=min-zoom&starting-point-node-id=1%3A3127" target="_blank" rel="nooperner noreferrer" >View Prototype</a> <---> </p>
+        <h6 class="ps-1 text-dark"> Research Themes </h6>
+             <div class="col-md-4 line-height-28 last-paragraph-no-margin">
+              <ul class="list-style-6">
+                  <li class="text-extra-small text-uppercase text-dark-gray font-weight-500 line-height-22">1. The 'Feed' was separate</li>
+                  <li>Participants were unclear about the 'Feed,' mistaking it for all or saved listings. It wasn’t clearly differentiated from Client Home nor the notification that led them to the 'feed'.</li>
+              </ul>
           </div>
-        </div>
-       </div>
-     </div>  
-   </div>
-</section>
-
-<section class="bg-white text-dark">
-  <div class="container">
-    <div class="row">
-      <div class="span">
-        <h3 class="ps-1"> User Testing Findings</h3>
-        <p class="text-dark"> Jared, from our research team, conducted a moderated mobile app test with eight participants via UserTesting.com. At the time, Client Home and the listing feed were treated as separate products, each occupying its own item in the bottom navigation. Key takeaways from this first round of testing are outlined below. 
-        </p>
-        <div class="col-md-12 line-height-28 last-paragraph-no-margin">
-            <ul class="list-style-6">
-                <li class="text-extra-small text-uppercase text-dark-gray font-weight-500 line-height-22">RESEARCH TAKEAWAYS</li>
-                <li>The proposed Compass app experience for buyers is moving in the right direction. Participants rated the prototype’s experience as comparable to or better than competitors’ apps. <br>Client Home was understood as a “summary” of the buyer’s home search. Feedback ranged from neutral to positive, with participants feeling it clearly fulfilled its intended purpose. <br> Listings Feed was not as clearly understood. It wasn’t clear to participants that it surfaced updates to listings, rather than being a destination for all listings or saved listings. It wasn’t perceived as clearly differentiated from Client Home, or even from Notifications (unexplored in the present study).<br>Triaging options at the listing-card level were generally sufficient. However, some participants suggested adding a “maybe” category to help narrow down listings. Others described a two-step review process: first separating “not interested” from potential contenders, then distinguishing top-tier from second-tier listings—making a “maybe” option less necessary. <br> In-app communication stood out as particularly valuable and a key differentiator.</li>
-            </ul>
-        </div>
-       </div>
-     </div>  
-   </div>
-</section>
-
-<section class="bg-white text-dark">
-  <div class="container">
-    <div class="row">
-      <div class="span">
-        <h3 class="ps-1"> User Test Concept 2</h3>
-        <p class="text-dark"> The image below reflects an iteration informed by the user feedback outlined above. </p>
-        <a class="btn btn-medium btn-orange" href="https://www.figma.com/proto/QFef1BPAs2ii7xFRpxX9FZ/Compass-Prototypes?page-id=0%3A1&node-id=1%3A3127&viewport=-419%2C846%2C0.25&scaling=min-zoom&starting-point-node-id=1%3A3127" >View Prototype
-        </a>
-         <div class="row padding-30px-lr">
-          <div class="image-fluid">
-           <img src="feed/img/test 2.png" class="image-fluid" alt="responsive image"> 
+          <div class="col-md-4 line-height-28 last-paragraph-no-margin">
+              <ul class="list-style-6">
+                  <li class="text-extra-small text-uppercase text-dark-gray font-weight-500 line-height-22">2. Feed Settings</li>
+                  <li>Participants were unclear about what 'Feed Settings' would affect. Since they had not gone through the setup process or worked with an agent, their lack of deeper understanding was reasonable.</li>
+              </ul>
           </div>
-        </div>
-       </div>
-     </div>  
-   </div>
-</section>
-
-<section class="bg-white text-dark">
-  <div class="container">
-    <div class="row">
-      <div class="span">
-        <h3 class="ps-1"> User Testing Findings</h3>
-        <p class="text-dark"> Jared, from our research team, ran a moderated mobile app test with eight participants on UserTesting.com. Below are the key takeaways from this second round of testing. </p>
-        <div class="col-md-12 line-height-28 last-paragraph-no-margin wow fadeInUp" style="visibility: visible;animation-name: fadeInUp;">
-            <ul class="list-style-6">
-                <li class="text-extra-small text-uppercase text-dark-gray font-weight-500 line-height-22">RESEARCH TAKEAWAYS</li>
-                <li>The new combined Client Home and Feed experience was better received compared to the previous round of testing. <br>Client Home was understood as a “dashboard” summarizing the buyer’s home search.<br> Limiting the number of filters on the Feed was positively received and helped reduce confusion in the overall experience.<br> Most participants struggled to fully grasp the functionality and purpose of the Feed settings. However, since the test involved a non-functional prototype, we believe users would learn the concept with more time and practice. <br>Limiting triaging options at the listing card level was sufficient, as users felt they needed more information before making decisions. <br> In-app communication continued to stand out as a particularly valuable and differentiating feature.<br> The two-step listing review process was confirmed as effective; users found it easier to manage triaged homes within the new Client Home.
-                <br> Agent branding was widely appreciated, creating a more personalized experience by reinforcing that their agent is always available to help.</li>
-            </ul>
-        </div>
-     </div>
+           <div class="col-md-4 line-height-28 last-paragraph-no-margin">
+              <ul class="list-style-6">
+                  <li class="text-extra-small text-uppercase text-dark-gray font-weight-500 line-height-22">3. Filters </li>
+                  <li>I presented seven different types of filters which was seemed to be too much for participants.</li>
+              </ul>
+          </div>
+      </div>
     </div>    
+  </div>
+</section>
+
+<section>
+  <div class="container-image-fluid">
+    <div class="image-fluid">
+     <img src="feed/img/test 1.png" class="image-fluid" alt="responsive image"> 
+    </div>
+  </div>
+</section>
+
+<section class="bg-white-padding text-dark">
+  <div class="container">
+    <div class="row">
+      <div class="span">
+        <h3 class="ps-1"> Second Round Research </h3>
+        <p class="text-dark"> In this round of testing, the 'Feed' is part of 'Client Home'. </p>
+        <h6 class="ps-1 text-dark"> Research Themes </h6>
+             <div class="col-md-4 line-height-28 last-paragraph-no-margin">
+              <ul class="list-style-6">
+                  <li class="text-extra-small text-uppercase text-dark-gray font-weight-500 line-height-22">1. Combined 'Feed' and 'Client Home'</li>
+                  <li>The new combined Client Home and Feed experience was better received compared to the previous round of testing.</li>
+              </ul>
+          </div>
+          <div class="col-md-4 line-height-28 last-paragraph-no-margin">
+              <ul class="list-style-6">
+                  <li class="text-extra-small text-uppercase text-dark-gray font-weight-500 line-height-22">2. Feed Filters</li>
+                  <li>Limiting the number of filters on the Feed was positively received and helped reduce confusion in the overall experience.</li>
+              </ul>
+          </div>
+           <div class="col-md-4 line-height-28 last-paragraph-no-margin">
+              <ul class="list-style-6">
+                  <li class="text-extra-small text-uppercase text-dark-gray font-weight-500 line-height-22">3. Repeated Feedback </li>
+                  <li>In-app communication continued to stand out and The two-step triagaing process was confirmed as effective, and</li>
+              </ul>
+          </div>
+      </div>
+    </div>    
+  </div>
+</section>
+
+<section>
+  <div class="container-image-fluid">
+    <div class="image-fluid">
+     <img src="feed/img/test 2.png" class="image-fluid" alt="responsive image"> 
+    </div>
   </div>
 </section>
 

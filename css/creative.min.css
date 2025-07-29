@@ -462,6 +462,13 @@ img{
     margin-left: -15px;
 }
 
+.padding-tb {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+
+}
+
 .padding-30px-lr{
 padding-top: 10px;
 padding-bottom: 10px;
